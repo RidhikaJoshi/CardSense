@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CardSense - Credit Card Dashboard
 
-## Getting Started
+A modern, feature-rich credit card management dashboard built with Next.js and Tailwind CSS. CardSense helps users track their credit card spending, manage rewards, and maintain financial awareness with an intuitive interface.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 💳 Credit Card Management
+- Real-time balance tracking and credit utilization monitoring
+- Available credit and credit limit visualization
+- Payment due date tracking with countdown
+- Minimum payment calculation and display
+- Interactive payment processing system
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📊 Spending Analytics
+- Category-wise spending breakdown with interactive charts
+- 6-month spending trend analysis
+- Visual credit utilization gauge
+- Monthly spending comparisons with previous periods
+- Detailed spending categorization (Groceries, Dining, Travel, etc.)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🎁 Rewards System
+- Points tracking and management
+- Tiered rewards program (Gold, Platinum)
+- Progress tracking towards next tier
+- Interactive reward catalog with redemption functionality
+- Achievement badges for spending milestones
+- Real-time points balance updates
 
-## Learn More
+### 💡 Smart Features
+- Dark/Light mode toggle
+- Responsive design for all devices
+- Animated transitions and interactions
+- Real-time updates for transactions
+- Interactive charts and graphs
+- Toast notifications for actions
+- Modal confirmations for important actions
 
-To learn more about Next.js, take a look at the following resources:
+### 📱 User Interface
+- Clean, modern design
+- Intuitive navigation
+- Responsive sidebar
+- Interactive cards and components
+- Progress indicators and visual feedback
+- Smooth animations and transitions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Technical Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Framework**: Next.js
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Charts**: Recharts
+- **Icons**: Lucide React
+- **Typography**: Montserrat (Google Fonts)
 
-## Deploy on Vercel
+## 📱 Responsive Design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+CardSense is fully responsive and works seamlessly across:
+- Desktop monitors
+- Laptops
+- Tablets
+- Mobile devices
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎨 Theme Support
+
+- Light mode for day use
+- Dark mode for night use
+- Automatic theme switching
+- Persistent theme preference
